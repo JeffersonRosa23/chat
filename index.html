@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<script type="text/javascript">
+    function abrir(){
+        document.getElementById('popup').style.display = 'block';
+    }
+    function fechar(){
+        document.getElementById('popup').style.display = 'none';
+    }
+</script>
+<body>
+    <div class="right">
+        <div id=pro class="row">
+            <button class="btn btn-dark rss col-sm-1">Volta</button>
+            <div class="perfil-user">
+                <div class="user-photo"><img src="/img/user1.JPG"></div>
+                <div class="perfil-name">
+                    <a href="javascript: abrir();">Nome - Contato</a>
+                    <p>Status</p>
+            </div>
+        </div>
+
+        <!-- ///////////////parte Pedro///////////// -->
+        <div class="cto">
+            <div class="left">
+                <div id="profile">
+                    <img id="perfil"
+                        src="http://www.armadilhasdevendas.com.br/wp-content/uploads/2013/05/perfil-profissional.jpg">
+                </div>
+                <div id="search">
+                    <input type="search" class="search" placeholder="  Procurar contato ...">
+                </div>
+                <div id="contacts">
+                    <button class="btn btn-dark">
+                        <div class="borda">
+                            <img id="perfil1" src="/img/user1.JPG">
+                        </div>
+                        <a class="contato">Fabiana</a>
+                    </button>
+                    <button class="btn btn-dark">
+                        <div class="borda">
+                            <img id="perfil1"
+                                src="https://st2.depositphotos.com/1007566/11547/v/950/depositphotos_115475494-stock-illustration-young-male-profile-avatar-isolated.jpg">
+                        </div>
+                        <a class="contato">Contato 2</a>
+                    </button>
+                    <button class="btn btn-dark">
+                        <div class="borda">
+                            <img id="perfil1"
+                                src="https://conceitos.com/wp-content/uploads/psicologia/Perfil-Psicologico.jpg">
+                        </div>
+                        <a class="contato">Contato 3</a>
+                    </button>
+                    <button class="btn btn-dark">
+                        <div class="borda">
+                            <img id="perfil1"
+                                src="https://cdn.midiamax.com.br/elasticbeanstalk-us-west-2-809048387867/uploads/2019/03/Daenerys-Targaryen-750x423.jpg">
+                        </div>
+                        <a class="contato">Contato 4</a>
+                    </button>
+                    <button class="btn btn-dark">
+                        <div class="borda">
+                            <img id="perfil1"
+                                src="https://img.buzzfeed.com/buzzfeed-static/static/2019-03/21/16/campaign_images/buzzfeed-prod-web-05/emilia-clarke-revealed-her-life-threatening-battl-2-26829-1553200315-0_dblbig.jpg">
+                        </div>
+                        <a class="contato">Contato 5</a>
+                    </button>
+                    <button class="btn btn-dark">
+                        <div class="borda">
+                            <img id="perfil1"
+                                src="https://www.estrelando.com.br/uploads/2018/08/17/sophie-turner-1534516949.jpg">
+                        </div>
+                        <a class="contato">Contato 6</a>
+                    </button>
+                    <button class="btn btn-dark">
+                        <div class="borda">
+                            <img id="perfil1" src="https://abrilexame.files.wordpress.com/2018/10/capaprofile.jpg">
+                        </div>
+                        <a class="contato">Contato 7</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ///////////////parte do chat (jefferson)///////////////// -->
+            <div class="chatbox">
+                    <div id="popup" class="popup">
+                            <center><button class="btn btn-dark"><a href="javascript: fechar()">Fechar</a></button></center>
+                            <div class="quad">
+                                    <h4>Fabiana</h4>
+                                    <h6>Fone: 99999-9999</h6>
+                                    <div class="user-photo"><img src="/img/user1.JPG"></div>
+                            </div>
+                            <div class="map">
+                                    <h1>Local</h1>
+                                </div>
+                            </div>
+                <div class="chatlogs">
+
+                    <div class="chat friend">
+                        <div class="user-photo"><img src="/img/user1.JPG"></div>
+                        <p class="chat-message">Olá, boa tade</p>
+                    </div>
+
+                    <div class="chat self">
+                        <div class="user-photo"><img src="http://www.armadilhasdevendas.com.br/wp-content/uploads/2013/05/perfil-profissional.jpg"></div>
+                        <p class="chat-message">Olá, Boa tarde</p>
+                    </div>
+
+                    <div class="chat friend">
+                        <div class="user-photo"><img src="/img/user1.JPG"></div>
+                        <p class="chat-message">Tudo bem com você?</p>
+                    </div>
+
+                    <div class="chat self">
+                        <div class="user-photo"><img src="http://www.armadilhasdevendas.com.br/wp-content/uploads/2013/05/perfil-profissional.jpg"></div>
+                        <p class="chat-message">Sim, e você ?</p>
+                    </div>
+
+
+                    <div class="chat friend">
+                        <div class="user-photo"><img src="/img/user1.JPG"></div>
+                        <p class="chat-message">A origem da ideia de programar uma máquina vem da necessidade de que as
+                            máquinas
+                            de tecer produzissem padrões de cores diferentes. Assim, no século XVIII foi criada uma
+                            forma de
+                            representar os padrões em cartões de papel perfurado, que eram tratados manualmente. Em
+                            1801, Joseph
+                            Marie Jacquard (1752-1834) inventa um tear mecânico, com uma leitora automática de cartões.
+
+                            A ideia de Jacquard atravessou o Canal da Mancha, onde inspirou Charles Babbage (1792-1871),
+                            um
+                            professor de matemática de Cambridge, a desenvolver uma máquina de “tecer números”, uma
+                            máquina de
+                            calcular onde a forma de calcular pudesse ser controlada por cartões.
+
+                            Tudo começou com a tentativa de desenvolver uma máquina capaz de calcular polinômios por
+                            meio de
+                            diferenças, o calculador diferencial. Enquanto projetava seu calculador diferencial, a ideia
+                            de
+                            Jacquard fez com que Babbage imaginasse uma nova e mais complexa máquina, o calculador
+                            analítico,
+                            máquina com alguns elementos que remetem aos computadores atuais.
+
+                            Sua parte principal seria um conjunto de rodas dentadas, o moinho, formando uma máquina de
+                            somar com
+                            precisão de cinquenta dígitos. As instruções seriam lidas de cartões perfurados. Os cartões
+                            seriam
+                            lidos em um dispositivo de entrada e armazenados, para futuras referências, em um banco de
+                            mil
+                            registradores. Cada um dos registradores seria capaz de armazenar um número de cinquenta
+                            dígitos,
+                            que poderiam ser colocados lá por meio de cartões a partir do resultado de um dos cálculos
+                            do
+                            moinho.
+
+                            Além disso tudo, Babbage imaginou a primeira máquina de impressão, que imprimiria os
+                            resultados dos
+                            cálculos, contidos nos registradores. Babbage conseguiu, durante algum tempo, fundos para
+                            sua
+                            pesquisa, porém não conseguiu completar sua máquina no tempo prometido e não recebeu mais
+                            dinheiro.
+                            Hoje, partes de sua máquina podem ser vistas no Museu Britânico, que também construiu uma
+                            versão
+                            completa, utilizando as técnicas disponíveis na época.
+
+                            Junto com Babbage, trabalhou a jovem Ada Augusta, filha do poeta Lord Byron, conhecida como
+                            Lady
+                            Lovelace e Ada Lovelace. Ada foi a primeira programadora da história, projetando e
+                            explicando, a
+                            pedido de Babbage, programas para a máquina inexistente. Ada inventou os conceitos de
+                            subrotina, uma
+                            seqüência de instruções que pode ser usada várias vezes; de loop, uma instrução que permite
+                            a
+                            repetição de uma sequência de instruções, e do salto condicional, instrução que permite
+                            saltar para
+                            algum trecho do programa caso uma condição seja satisfeita.
+
+                            Ada Lovelace e Charles Babbage estavam avançados demais para o seu tempo, tanto que até a
+                            década de
+                            1940, nada se inventou parecido com seu computador analítico. Até essa época foram
+                            construídas
+                            muitas máquinas mecânicas de somar destinadas a controlar negócios (principalmente caixas
+                            registradoras) e algumas máquinas inspiradas na calculadora diferencial de Babbage, para
+                            realizar
+                            cálculos de engenharia (que não alcançaram grande sucesso).</p>
+                    </div>
+                </div>
+
+                <div class="chat-form">
+                    <textarea></textarea>
+                    <button><img src="/img/ic_send.png"></button>
+                    <button><img src="/img/ic_up.png"></button>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
